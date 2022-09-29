@@ -1,0 +1,24 @@
+{
+    "name": "juniorhbs/fsphp",
+    "description": "This is a library that uses composer as ths basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junior Oliveira",
+            "email": "juniorhbs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "v6.6.4"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\":"_app"
+        }
+    }
+}
